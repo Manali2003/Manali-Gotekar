@@ -23,7 +23,8 @@ It is easy to manage packages in linux with YUM.
 
 1. File must exist in the /etc/yum.repos.d/ directory
 2. File must have an extension .repo
-3. If GPG check is enabled then GPG key must be mentioned
+3. If GPG check is enabled then GPG key must be mentioned.
+
 •	Commands for package management –
 1. To view the package details: yum info PACKAGENAME 
 2. Install a package:  yum install PACKAGENAME 
