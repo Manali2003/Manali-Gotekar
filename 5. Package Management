@@ -1,0 +1,34 @@
+PACKAGE MANAGEMENT
+
+•	Package in Linux – 
+In Linux distributions, a “package” refers to a compressed file archive containing all of the files that come with a particular application. 
+The files are usually stored in the package according to their relative installation paths on your system. 
+Most packages also contain installation instructions for the OS, as well as a list of any other packages that are dependencies (prerequisites required for installation).
+
+•	Package Management in linux –
+Package Management is a method of installing, updating, removing, and keeping track of software updates from specific repositories in the Linux system. 
+It includes updating and probably removing as well.
+Package managers are used to automate the process of installing, upgrading, configuring and removing programs.
+There are many package manager studios for Linux based system.
+
+•	How package management systems work –
+If a certain package requires a certain resource such as a shared library, or another package, it is said to have a dependency.
+All modern package management systems provide some method of dependency resolution to ensure that when a package is installed, all of its dependencies are installed as well.
+
+•	YUM Package manager –
+YUM is the primary package management tool for installing, updating, removing, and managing software packages in linux.
+YUM performs dependency resolution when installing, updating and removing software packages.
+YUM can manage packages from installed repositories in the system.
+It is easy to manage packages in linux with YUM.
+
+1. File must exist in the /etc/yum.repos.d/ directory
+2. File must have an extension .repo
+3. If GPG check is enabled then GPG key must be mentioned
+•	Commands for package management –
+1. To view the package details: yum info PACKAGENAME 
+2. Install a package:  yum install PACKAGENAME 
+3. Update all package: yum update
+4. Remove a package: yum remove PACKAGENAME
+5. To view transaction history: yum remove PACKAGENAME
+6. To reverse a transaction: yum history undo INDEXNUMBER
+
